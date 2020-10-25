@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 75px auto 0 auto;
+}
+
+h1,
+h2 {
+    color: rgb(3, 68, 3);
+    margin: 25px auto;
+}
+
+.logo {
+    float: left;
+
+}
+
+.logo h1 {
+
+    color: rgb(56, 36, 17);
+    float: left;
+    margin:0px 0px 10px 0px;
+}
+
+p img {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    border-top: 1px solid #aaa;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(3, 68, 3);
+    clear: both;
+
+}
+
+nav li {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+    float: left;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color:  rgb(3, 68, 3);
+
+}
+
+main {
+    margin-bottom: 25px;
+}
+
+.project {
+    list-style-type: none;
+    float: left;
+    margin-bottom: 25px;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid #aaa;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(3, 68, 3)
+}
+
+footer li {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+    float: left;
+    list-style-type: none;
+    color: white;
+
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    background-color: white;
+    color: black;
+
+}
