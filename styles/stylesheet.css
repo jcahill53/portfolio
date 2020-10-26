@@ -23,6 +23,8 @@ h2 {
     padding: 0px 15px 0px 15px;
 }
 
+
+
 .logo {
     padding: 0px 15px 0px 15px;
 
@@ -116,10 +118,22 @@ article {
 }
 
 .project figcaption {
-    color: white;
     padding: 10px;
     text-align: center;
 
+}
+
+.project figcaption:hover {
+    background-color:skyblue;
+    color:darkblue;
+}
+
+a:link {
+    color:mediumblue;
+}
+
+a:visited {
+    color:darkgreen;
 }
 
 footer {
