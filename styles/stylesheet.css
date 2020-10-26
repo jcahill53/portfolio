@@ -78,7 +78,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: rgb(56, 36, 17);
     color: rgb(3, 68, 3);
 
 }
@@ -124,16 +124,16 @@ article {
 }
 
 .project figcaption:hover {
-    background-color:skyblue;
-    color:darkblue;
+    background-color: skyblue;
+    color: darkblue;
 }
 
 a:link {
-    color:mediumblue;
+    color: mediumblue;
 }
 
 a:visited {
-    color:darkgreen;
+    color: darkgreen;
 }
 
 footer {
@@ -160,7 +160,15 @@ footer a {
 }
 
 footer a:hover {
-    background-color: white;
-    color: black;
+    background-color: rgb(56, 36, 17);
+    color: white;
 
+}
+
+footer a:visited {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
 }
