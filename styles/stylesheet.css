@@ -3,20 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image:url("../images/icons8-swamp-25.png");
+  
 
+}
 #wrapper {
     width: 940px;
-    margin: 75px auto 0 auto;
+    margin: 0px auto 0 auto;
+    background-color:white;
+ 
 }
 
 h1,
 h2 {
     color: rgb(3, 68, 3);
     margin: 25px auto;
+    padding: 0px 15px 0px 15px;
 }
 
 .logo {
     float: left;
+    padding: 0px 15px 0px 15px;
 
 }
 
@@ -27,13 +35,13 @@ h2 {
     margin:0px 0px 10px 0px;
 }
 
-p img {
+.logo img {
     width: 50px;
     height: 50px;
 }
 
 nav {
-    border-top: 1px solid #aaa;
+    border: 1px solid #aaa;
     height: 50px;
     line-height: 50px;
     background-color: rgb(3, 68, 3);
@@ -62,20 +70,50 @@ nav a:hover {
 
 main {
     margin-bottom: 25px;
+    padding: 0px 15px 0px 15px;
 }
 
-.project {
-    list-style-type: none;
+article{
+    margin-left:80px;
+}
+
+figure {
+    /* background-color:black; */
+    padding:30px 0px 10px 0px;
+    margin: 0px 20px 20px 20px;
     float: left;
-    margin-bottom: 25px;
+    border:2px solid rgb(3, 68, 3);
+    width:200px;
+    height:200px;
+  
+  }
+figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+
+figcaption {
+    color:white;
+    /* background:black; */
+    padding:10px 10px 10px 10px;
+    /* width:200px; */
+    /* height:200px; */
+    /* margin:10px 10px 50px; */
+    text-align:center;
+
 }
 
 footer {
     clear: both;
-    border-top: 1px solid #aaa;
+    border-top: 1px solid black;
     height: 50px;
     line-height: 50px;
-    background-color: rgb(3, 68, 3)
+    background-color: rgb(3, 68, 3);
+   
 }
 
 footer li {
