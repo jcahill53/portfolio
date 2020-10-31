@@ -79,8 +79,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(56, 36, 17);
-    color: rgb(3, 68, 3);
+    background-color: skyblue;
+    color: darkblue;
 
 }
 
@@ -143,6 +143,7 @@ footer {
     height: 50px;
     line-height: 50px;
     background-color: rgb(3, 68, 3);
+    color: white;
 
 }
 
@@ -156,13 +157,15 @@ footer li {
 
 }
 
+
+
 footer a {
     color: white;
 }
 
 footer a:hover {
-    background-color: rgb(56, 36, 17);
-    color: white;
+    background-color: skyblue;
+
 
 }
 
