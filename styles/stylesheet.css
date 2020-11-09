@@ -7,6 +7,7 @@
 body {
     background-image: url("../images/icons8-swamp-25.png");
     font-family: 'Roboto', sans-serif;
+    font-size:16px;
 }
 
 
@@ -22,6 +23,7 @@ h1 {
     margin: 25px auto;
     padding: 0px 15px 0px 15px;
     font-family: 'Montserrat Alternates', sans-serif;
+    font-size:2.5rem;
 }
 
 h2 {
@@ -30,7 +32,9 @@ h2 {
 
 }
 
-
+.large {
+    font-size:2rem;
+}
 
 .logo {
     padding: 15px 15px 0px 15px;
@@ -112,7 +116,7 @@ section h2 {
 
 .project {
     padding: 25px 0px 25px 0px;
-    margin: 15px;
+    margin: 10px;
     border: 2px solid rgb(3, 68, 3);
     width: 25%;
     height: 25%;
@@ -133,6 +137,7 @@ section h2 {
 .project figcaption {
     padding: 10px;
     text-align: center;
+    font-size:.75rem;
 
 }
 
@@ -201,8 +206,8 @@ footer a:visited {
 }
 
 .flexbox2 {
-    width: 20%;
-    margin: 0px 50px 0px 0px;
+    width: 50%;
+    margin: 0px 30px 0px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
