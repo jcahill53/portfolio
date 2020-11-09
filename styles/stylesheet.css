@@ -157,20 +157,19 @@ a:visited {
 footer {
 
     border-top: 1px solid black;
-    height: 50px;
-    line-height: 50px;
     margin-top: 25px;
     background-color: rgb(3, 68, 3);
     color: white;
-
+    font-size:100%;
+  
 
 
 }
 
 
 footer p {
-    height: 50px;
-    line-height: 50px;
+    /* height: 50px;
+    line-height: 50px; */
     list-style-type: none;
     color: white;
 
@@ -198,10 +197,13 @@ footer a:visited {
 }
 
 .flexbox1 {
-    margin: 0px 50px 0px 30px;
+    margin: 0px 30px 0px 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative; 
+    min-height: 100%;
+
 
 }
 
