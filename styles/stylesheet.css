@@ -11,17 +11,22 @@ body {
 
 
 #wrapper {
-    width: 940px;
+    width: 75%;
     margin: 0px auto 0 auto;
     background-color: white;
 
 }
 
-h1,
-h2 {
+h1 {
     color: rgb(3, 68, 3);
     margin: 25px auto;
     padding: 0px 15px 0px 15px;
+}
+
+h2 {
+    color: rgb(3, 68, 3);
+    margin: 25px;
+
 }
 
 
@@ -49,7 +54,6 @@ h2 {
     font-size: 200%;
     width: 800px;
     color: rgb(56, 36, 17);
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 
 
@@ -65,13 +69,6 @@ nav {
 
 }
 
-nav li {
-    height: 50px;
-    line-height: 50px;
-    margin-left: 15px;
-    float: left;
-    list-style-type: none;
-}
 
 nav a {
     color: white;
@@ -84,28 +81,39 @@ nav a:hover {
 
 }
 
-main {
+
+main,
+section {
     margin-bottom: 0px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 20px;
+}
+
+section h2 {
+    padding-left: 0px;
 }
 
 .long {
-    height: 525px;
+    height:525px;
 }
 
 
-article {
-    margin-left: 80px;
+
+.flex-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+
+
 }
 
 .project {
-    /* background-color:black; */
-    padding: 35px 0px 15px 0px;
-    margin: 0px 15px 15px 15px;
-    float: left;
+    padding: 25px 0px 25px 0px;
+    margin: 15px;
     border: 2px solid rgb(3, 68, 3);
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 20%;
 
 }
 
@@ -117,6 +125,8 @@ article {
 
 
 }
+
+
 
 .project figcaption {
     padding: 10px;
@@ -138,20 +148,22 @@ a:visited {
 }
 
 footer {
-    clear: both;
+
     border-top: 1px solid black;
     height: 50px;
     line-height: 50px;
+    margin-top: 25px;
     background-color: rgb(3, 68, 3);
     color: white;
 
+
+
 }
 
-footer li {
+
+footer p {
     height: 50px;
     line-height: 50px;
-    margin-left: 15px;
-    float: left;
     list-style-type: none;
     color: white;
 
@@ -161,6 +173,8 @@ footer li {
 
 footer a {
     color: white;
+
+
 }
 
 footer a:hover {
@@ -169,9 +183,45 @@ footer a:hover {
 
 }
 
+footer .clearhover:hover {
+    background-color: transparent;
+}
 footer a:visited {
     color: white;
 }
+
+.flexbox1 {
+    margin: 0px 50px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.flexbox2 {
+    width: 20%;
+    margin: 0px 50px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.social {
+    justify-self: flex-end;
+    align-self: center;
+
+}
+
+i {
+    font-size: 2rem;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
 
 nav a:visited {
     color: white;

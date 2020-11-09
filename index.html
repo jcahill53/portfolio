@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link href="styles/stylesheet.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e4e34ea44b.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -17,14 +19,17 @@
                     </a></p>
 
                 <h1>Websites by Joann</h1>
+
+
             </div>
 
             <nav>
-                <ul>
-                    <li><a href="index.html">Portfolio</a></li>
-                    <li><a href="about.html">About</a></li>
+                
+            <div class="flexbox2">
+                    <a href="index.html">Portfolio</a>
+                    <a href="about.html">About</a>
 
-                </ul>
+            </div> <!--end of flexbox1-->
 
             </nav>
 
@@ -32,7 +37,7 @@
 
         <main>
             <section>
-                <h1>Welcome to my Portfolio!</h1>
+                <h2>Welcome to my Portfolio!</h2>
                 <p>Sed nulla neque, condimentum at mi id, auctor euismod nulla. Fusce a vestibulum nunc, eu egestas
                     lectus.
                     Mauris fringilla, dolor eget malesuada auctor, massa elit rhoncus ipsum, eu maximus justo quam sit
@@ -46,45 +51,74 @@
 
             <article>
                 <h2>My Projects</h2>
+                <div class="flex-projects">
+                    <figure class="project">
+                        <img src="images/icons8-creek-100.png" alt="">
+                        <figcaption><a href="https://jcahill53.github.io/html110/">My First Site</a></figcaption>
+                    </figure>
 
-                <figure class="project">
-                    <img src="images/icons8-creek-100.png" alt="">
-                    <figcaption><a href="https://jcahill53.github.io/html110/">My First Site</figcaption>
-                </figure>
-                <figure class="project">
-                    <img src="images/icons8-alps-100.png" alt="">
-                    <figcaption><a href="https://jcahill53.github.io/semantic-elements/">Semantic
-                            Elements</figcaption>
-                </figure>
-                <figure class="project">
-                    <img src="images/icons8-cave-100.png" alt="">
-                    <figcaption><a href="https://jcahill53.github.io/lesson02/">About Pressure
-                            Cookers</figcaption>
-                </figure>
-                <figure class="project">
-                    <img src="images/icons8-forest-100.png" alt="">
-                    <figcaption><a href="https://jcahill53.github.io/lesson_03/">Intro to CSS</figcaption>
-                </figure>
+                    <figure class="project">
+                        <img src="images/icons8-alps-100.png" alt="">
+                        <figcaption><a href="https://jcahill53.github.io/semantic-elements/">Semantic
+                                Elements</a></figcaption>
+                    </figure>
 
-                </figure>
-                <figure class="project">
-                    <img src="images/icons8-grand-canyon-100.png" alt="">
-                    <figcaption><a href="https://jcahill53.github.io/kitties2go/">Kitties 2 Go!</figcaption>
-                </figure>
+                    <figure class="project">
+                        <img src="images/icons8-cave-100.png" alt="">
+                        <figcaption><a href="https://jcahill53.github.io/lesson02/">About Pressure
+                                Cookers</a></figcaption>
+                    </figure>
+
+                    <figure class="project">
+                        <img src="images/icons8-forest-100.png" alt="">
+                        <figcaption><a href="https://jcahill53.github.io/lesson_03/">Intro to CSS</a></figcaption>
+                    </figure>
 
 
+                    <figure class="project">
+                        <img src="images/icons8-grand-canyon-100.png" alt="">
+                        <figcaption><a href="#/">Under Development</a></figcaption>
+                    </figure>
+
+                    <figure class="project">
+                        <img src="images/icons8-iceberg-100.png" alt="">
+                        <figcaption><a href="#">Under Development
+                            </a></figcaption>
+                    </figure>
+
+                </div> <!-- end of flex-projects -->
             </article>
 
         </main>
 
         <footer>
-            <ul>
-                <li>Copyright 2020</li>
-                <li> <a href="index.html">Websites by Joann</a></li>
 
-            </ul>
+            <div class="flexbox1">
+                <div>
+                    <p>Copyright &copy; 2020</p>
+                </div>
 
+
+                <div>
+                    <p> <a href="index.html">Top of Page</a></p>
+                </div>
+
+                <div class="social">
+                    <a class="clearhover" title="Click to access Linkedin" href="https://www.linkedin.com/in/joann-cahill-56177013/">
+                        <i class="fab fa-linkedin"> </i></a>
+                    <a class="clearhover" title="Click to access my Github account" href="https://github.com/jcahill53/">
+                        <i class="fab fa-github-square"></i></a>
+                </div>
+                <!--end of social div-->
+
+            </div>
+            <!--end of flexbox1-->
+
+
+
+            <!--end of flexbox2-->
         </footer>
+
     </div> <!-- end of div class="wrapper"-->
 </body>
 
