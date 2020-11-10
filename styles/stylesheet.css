@@ -21,6 +21,7 @@ h1 {
     color: rgb(129, 76, 16);
     margin: 25px auto;
     padding: 0px 15px 0px 15px;
+    margin: 0px 0px 10px 0px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.5rem;
 }
@@ -30,6 +31,7 @@ h2 {
     margin: 25px;
 }
 
+
 .large {
     font-size: 2rem;
 }
@@ -38,25 +40,12 @@ h2 {
     padding: 15px 15px 0px 15px;
 }
 
-.logo h1 {
-
-    color: rgb(56, 36, 17);
-    margin: 0px 0px 10px 0px;
-}
-
 .logo img {
     width: 50px;
     height: 50px;
     float: left;
     margin-right: 15px;
     margin-bottom: 10px;
-}
-
-.logo figcaption {
-    font-size: 200%;
-    width: 800px;
-    color: rgb(56, 36, 17);
-    font-weight: bold;
 }
 
 nav {
@@ -68,15 +57,15 @@ nav {
 }
 
 
-nav a {
+nav a, footer a {
     color: white;
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
     background-color: skyblue;
     color: darkblue;
-}
+} 
 
 main,
 section {
@@ -119,6 +108,7 @@ section h2 {
     padding: 10px;
     text-align: center;
     font-size: .75rem;
+    color:darkblue;
 }
 
 .project figcaption:hover {
@@ -126,46 +116,28 @@ section h2 {
     color: darkblue;
 }
 
-a:link {
-    color: mediumblue;
-}
 
-a:visited {
-    color: darkgreen;
-}
 
 footer {
     border-top: 1px solid black;
     margin-top: 25px;
     background-color: rgb(3, 68, 3);
-    color: white;
     font-size: 100%;
     position: relative;
     min-height: 100%;
 }
 
 footer p {
-    /* height: 50px;
-    line-height: 50px; */
     list-style-type: none;
     color: white;
 }
 
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    background-color: skyblue;
-}
 
 footer .clearhover:hover {
     background-color: transparent;
 }
 
-footer a:visited {
-    color: white;
-}
+
 
 .flexbox1 {
     margin: 0px 30px 0px 30px;
@@ -195,6 +167,3 @@ i {
     padding-top: 10px;
 }
 
-nav a:visited {
-    color: white;
-}
