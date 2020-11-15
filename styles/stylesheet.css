@@ -56,16 +56,20 @@ nav {
     clear: both;
 }
 
-
-nav a, footer a {
+nav a, footer a{
+    padding:0px 10px;
+    transition:font-size 250ms 250ms, background-color 250ms 250ms, color 250ms 250ms;
     color: white;
     text-decoration: none;
 }
 
+
 nav a:hover, footer a:hover {
-    background-color: skyblue;
+    background-color:lightgray;
     color: darkblue;
+    font-size:2rem;
 } 
+
 
 main,
 section {
@@ -95,7 +99,26 @@ section h2 {
     border: 2px solid rgb(3, 68, 3);
     width: 25%;
     height: 25%;
+    transition:background-color 500ms  250ms, width 500ms  250ms, height 500s 250ms, border 500ms  250ms, font-size 500ms 250ms;
 }
+
+.project:nth-child(even) {
+    background-color:lightgreen;
+}
+
+.project:nth-child(odd) {
+    background-color:rgb(250, 203, 117);
+}
+
+.project:hover {
+    width:33%;
+    height:33%;
+    background-color:lightgray;
+    font-size:2rem;
+    border:4px solid  rgb(3, 68, 3);
+
+}
+
 
 .project img {
     display: block;
@@ -107,13 +130,15 @@ section h2 {
 .project figcaption {
     padding: 10px;
     text-align: center;
-    font-size: .75rem;
+    font-size: 1rem;
+    font-weight:bold;
     color:darkblue;
 }
 
 .project figcaption:hover {
     background-color: skyblue;
     color: darkblue;
+    /* font-size:2rem; */
 }
 
 
