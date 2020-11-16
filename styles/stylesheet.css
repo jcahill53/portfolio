@@ -57,10 +57,11 @@ nav {
 }
 
 nav a, footer a{
-    padding:0px 10px;
+    padding:0px 5px;
     transition:font-size 250ms 250ms, background-color 250ms 250ms, color 250ms 250ms;
     color: white;
     text-decoration: none;
+    text-align:center;
 }
 
 
@@ -103,7 +104,7 @@ section h2 {
 }
 
 .project:nth-child(even) {
-    background-color:lightgreen;
+    background-color:rgb(173, 245, 173);
 }
 
 .project:nth-child(odd) {
@@ -166,7 +167,7 @@ footer .clearhover:hover {
 
 
 .flexbox1 {
-    margin: 0px 30px 0px 30px;
+    margin: 0px 10px 0px 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
