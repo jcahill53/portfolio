@@ -65,10 +65,13 @@ footer a {
     color: white;
     text-decoration: none;
     text-align: center;
+    
+}
+
+nav a{
     padding-left: 15px;
     padding-right: 15px;
 }
-
 
 nav a:nth-child(1) {
     padding-left: 50px;
