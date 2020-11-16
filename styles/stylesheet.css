@@ -99,7 +99,6 @@ section h2 {
     margin: 10px;
     border: 3px solid rgb(3, 68, 3);
     width: 25%;
-    height: 25%;
     transition:background-color 500ms  250ms, width 500ms  250ms, height 500s 250ms, border 500ms  250ms, font-size 500ms 250ms;
 }
 
@@ -113,8 +112,7 @@ section h2 {
 
 .project:hover {
     width:33%;
-    height:33%;
-    background-color:lightgray;
+     background-color:lightgray;
     font-size:2rem;
     border:4px solid  rgb(3, 68, 3);
 
@@ -125,7 +123,7 @@ section h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 33%;
+    width: 40%;
 }
 
 .project figcaption {
