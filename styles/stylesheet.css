@@ -115,7 +115,7 @@ section h2 {
     margin: 10px;
     border: 3px solid rgb(3, 68, 3);
     width: 25%;
-    transition: background-color 500ms 250ms, width 500ms 250ms, height 500s 250ms, border 500ms 250ms, font-size 500ms 250ms;
+    transition: background-color 500ms 0ms, width 500ms 0ms, height 500s 0ms, border 500ms 0ms, font-size 500ms 0ms;
 }
 
 .project:nth-child(even) {
@@ -127,9 +127,8 @@ section h2 {
 }
 
 .project:hover {
-    width: 33%;
+    width: 28%;
     background-color: lightgray;
-    font-size: 2rem;
     border: 4px solid rgb(3, 68, 3);
 
 }
@@ -151,11 +150,11 @@ section h2 {
     width: auto;
 }
 
-.project figcaption:hover {
+/* .project figcaption:hover {
     background-color: skyblue;
     color: darkblue;
 
-}
+} */
 
 
 
