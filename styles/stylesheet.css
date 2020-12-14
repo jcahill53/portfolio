@@ -10,7 +10,6 @@ body {
     font-size: 16px;
 }
 
-
 #wrapper {
     width: 75%;
     margin: 0px auto 0 auto;
@@ -21,7 +20,6 @@ h1 {
     color: rgb(129, 76, 16);
     margin: 25px auto;
     padding: 0px 15px;
-    /* margin: 0px 0px 10px 0px; */
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.5rem;
 }
@@ -65,19 +63,17 @@ footer a {
     color: white;
     text-decoration: none;
     text-align: center;
-    
+
 }
 
-nav a{
+nav a {
     padding-left: 15px;
     padding-right: 15px;
 }
 
 nav a:nth-child(1) {
     padding-left: 50px;
-    /* padding-right: 30px; */
 }
-
 
 
 nav a:hover,
@@ -130,7 +126,6 @@ section h2 {
     width: 28%;
     background-color: lightgray;
     border: 4px solid rgb(3, 68, 3);
-
 }
 
 
@@ -150,13 +145,97 @@ section h2 {
     width: auto;
 }
 
-/* .project figcaption:hover {
-    background-color: skyblue;
-    color: darkblue;
+/* styling for form */
+label {
+    padding-right: 10px;
+    font-weight: bold;
+    color: rgb(3, 68, 3);
+}
 
-} */
+legend {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(129, 76, 16);
+}
 
+.name,
+.address,
+.city-state {
+    display: block;
+    padding-bottom: 15px;
+}
 
+.name input,
+.city-state input,
+.city-state select {
+    width: 20%;
+}
+
+fieldset {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.address input {
+    width: 80%;
+    /* margin: 20 px; */
+}
+
+input,
+option,
+select,
+textarea {
+    background-color: rgb(173, 245, 173);
+    margin-bottom: 5px;
+}
+
+input:focus,
+select option:focus,
+select:focus,
+textarea:focus {
+    background-color: rgb(250, 203, 117);
+    border: 3px solid black;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 30%;
+}
+
+input[type="submit"] {
+    font-size: 1.25rem;
+    color: lightgray;
+    font-weight: bold;
+    background-color: rgb(129, 76, 16);
+    padding: 10px 40px;
+}
+
+.button {
+    height: 100px;
+    position: relative;
+
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+input[type="submit"]:focus {
+    background-color: rgb(250, 203, 117);
+    border: 3px solid rgb(129, 76, 16);
+    color: rgb(129, 76, 16);
+}
+
+/* end of styling for form */
 
 footer {
     border-top: 1px solid black;
@@ -174,12 +253,9 @@ footer p {
     text-align: center;
 }
 
-
 footer .clearhover:hover {
     background-color: transparent;
 }
-
-
 
 .flexbox1 {
     margin: 0px 10px 0px 10px;
@@ -191,8 +267,6 @@ footer .clearhover:hover {
 
 .flexbox2 {
     width: 50%;
-    /* margin: 0px  30px  0px  0px; */
-    /* padding:0px, 50px; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
