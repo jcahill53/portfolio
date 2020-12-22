@@ -41,158 +41,173 @@
         <main>
             <section>
                 <h2 class="large">Contact Me</h2>
-                <fieldset>
-                    <legend>Please provide your contact information:</legend>
-                    <div class="name">
-                        <label for="first-name">First Name
-                            <input type="text" id="first-name" autofocus></label>
+                <form>
+                    <fieldset>
+                        <!-- start of contact information -->
+                        <legend>Please provide your contact information:</legend>
+                        <div class="name">
+                            <label for="first-name">First Name
+                                <input type="text" id="first-name" autofocus></label>
 
-                        <label for="middle-name">Middle Name
-                            <input type="text" id="middle-name"></label>
+                            <label for="middle-name">Middle Name
+                                <input type="text" id="middle-name"></label>
 
-                        <label for="last-name">Last Name
-                            <input type="text" id="last-name"></label>
+                            <label for="last-name">Last Name
+                                <input type="text" id="last-name"></label>
 
-                    </div> <!-- end of name div -->
-
-
-                    <label class="address" for="address-1">Address Line 1
-                        <input type="text" id="address-1"></label>
-
-                    <label class="address" for="address-2">Address Line 2
-                        <input type="text" id="address-2"></label>
+                        </div> <!-- end of name div -->
 
 
-                    <div class="city-state">
+                        <label class="address" for="address-1">Address Line 1
+                            <input type="text" id="address-1"></label>
 
-                        <label for="city">City
-                            <input type="text" id="city">
+                        <label class="address" for="address-2">Address Line 2
+                            <input type="text" id="address-2"></label>
+
+
+                        <div class="city-state">
+
+                            <label for="city">City
+                                <input type="text" id="city">
+                            </label>
+
+                            <label for="state">State
+                                <select name="menu-items" id="state">
+                                    <option value="Alabama">Alabama </option>
+                                    <option value="alaska">Alaska</option>
+                                    <option value="arizona">Arizona</option>
+                                    <option value="arkansas">Arkansas</option>
+                                    <option value="california">California</option>
+                                    <option value="colorado">Colorado</option>
+                                    <option value="connecticut">Connecticut</option>
+                                    <option value="delaware">Delaware</option>
+                                    <option value="florida">Florida</option>
+                                    <option value="georgia">Georgia</option>
+                                    <option value="hawaii">Hawaii</option>
+                                    <option value="idaho">Idaho</option>
+                                    <option value="illinois">Illinois</option>
+                                    <option value="indiana">Indiana</option>
+                                    <option value="iowa">Iowa</option>
+                                    <option value="kansas">Kansas</option>
+                                    <option value="kentucky">Kentucky</option>
+                                    <option value="louisiana">Louisiana</option>
+                                    <option value="maine">Maine</option>
+                                    <option value="maryland">Maryland</option>
+                                    <option value="massachusetts">Massachusetts</option>
+                                    <option value="michigan">Michigan</option>
+                                    <option value="minnesota">Minnesota</option>
+                                    <option value="mississippi">Mississippi</option>
+                                    <option value="missouri">Missouri</option>
+                                    <option value="montana">Montana</option>
+                                    <option value="nebraska">Nebraska</option>
+                                    <option value="nevada">Nevada</option>
+                                    <option value="new hampshire">New Hampshire</option>
+                                    <option value="new jersey">New Jersey</option>
+                                    <option value="new mexico">New Mexico</option>
+                                    <option value="new york">New York</option>
+                                    <option value="north carolina">North Carolina</option>
+                                    <option value="north dakota">North Dakota</option>
+                                    <option value="ohio">Ohio</option>
+                                    <option value="oklahoma">Oklahoma</option>
+                                    <option value="oregon">Oregon</option>
+                                    <option value="pennsylvania">Pennsylvania</option>
+                                    <option value="rhode island">Rhode Island</option>
+                                    <option value="south carolina">South Carolina</option>
+                                    <option value="south dakota">South Dakota</option>
+                                    <option value="tennessee">Tennessee</option>
+                                    <option value="texas">Texas</option>
+                                    <option value="utah">Utah</option>
+                                    <option value="vermont">Vermont</option>
+                                    <option value="virginia">Virginia</option>
+                                    <option value="washington" selected>Washington</option>
+                                    <option value="west virginia">West Virginia</option>
+                                    <option value="wisconsin">Wisconsin</option>
+                                    <option value="wyoming">Wyoming</option>
+                                </select>
+                            </label>
+
+                            <label for="zipcode">Zipcode
+                                <input type="text" id="zipcode">
+                            </label>
+                        </div>
+                        <label for="email">Email
+                            <input type="email" name="email" id="email" placeholder="your-user-id@provider-name.com">
                         </label>
-                        <label for="state">State
-                            <select name="menu-items" id="state">
-                                <option value="Alabama">Alabama </option>
-                                <option value="alaska">Alaska</option>
-                                <option value="arizona">Arizona</option>
-                                <option value="arkansas">Arkansas</option>
-                                <option value="california">California</option>
-                                <option value="colorado">Colorado</option>
-                                <option value="connecticut">Connecticut</option>
-                                <option value="delaware">Delaware</option>
-                                <option value="florida">Florida</option>
-                                <option value="georgia">Georgia</option>
-                                <option value="hawaii">Hawaii</option>
-                                <option value="idaho">Idaho</option>
-                                <option value="illinois">Illinois</option>
-                                <option value="indiana">Indiana</option>
-                                <option value="iowa">Iowa</option>
-                                <option value="kansas">Kansas</option>
-                                <option value="kentucky">Kentucky</option>
-                                <option value="louisiana">Louisiana</option>
-                                <option value="maine">Maine</option>
-                                <option value="maryland">Maryland</option>
-                                <option value="massachusetts">Massachusetts</option>
-                                <option value="michigan">Michigan</option>
-                                <option value="minnesota">Minnesota</option>
-                                <option value="mississippi">Mississippi</option>
-                                <option value="missouri">Missouri</option>
-                                <option value="montana">Montana</option>
-                                <option value="nebraska">Nebraska</option>
-                                <option value="nevada">Nevada</option>
-                                <option value="new hampshire">New Hampshire</option>
-                                <option value="new jersey">New Jersey</option>
-                                <option value="new mexico">New Mexico</option>
-                                <option value="new york">New York</option>
-                                <option value="north carolina">North Carolina</option>
-                                <option value="north dakota">North Dakota</option>
-                                <option value="ohio">Ohio</option>
-                                <option value="oklahoma">Oklahoma</option>
-                                <option value="oregon">Oregon</option>
-                                <option value="pennsylvania">Pennsylvania</option>
-                                <option value="rhode island">Rhode Island</option>
-                                <option value="south carolina">South Carolina</option>
-                                <option value="south dakota">South Dakota</option>
-                                <option value="tennessee">Tennessee</option>
-                                <option value="texas">Texas</option>
-                                <option value="utah">Utah</option>
-                                <option value="vermont">Vermont</option>
-                                <option value="virginia">Virginia</option>
-                                <option value="washington" selected>Washington</option>
-                                <option value="west virginia">West Virginia</option>
-                                <option value="wisconsin">Wisconsin</option>
-                                <option value="wyoming">Wyoming</option>
+
+                        <label for="phone">Phone
+                            <input type="text" name="phone" id="phone" placeholder="###-###-####">
+                        </label>
+
+                        <label for="phone-type">Type of Phone
+                            <select name="menu-items" id="phone-type">
+                                <option value="home">Home </option>
+                                <option value="mobile">Mobile</option>
+                                <option value="work">Work</option>
                             </select>
                         </label>
+                        <!-- end of city-state div -->
+                    </fieldset> <!-- end of personal info fieldset -->
+
+                    <fieldset>
+                        <!-- your favorit site -->
+                        <legend>Which portfolio project do you like the best?</legend>
 
 
+                        <div class="site-selection">
+                            <div>
+                                <input type="radio" id="first-site" name="sites" value="MyFirstSite">
+                                <label for="first-site">My First Site </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="semantic-elements" name="sites" value="SemanticElements">
+                                <label for="semantic-elements">Semantic Elements </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="about-cookers" name="sites" value="AboutPressureCookers">
+                                <label for="about-cookers">About Pressure Cookers </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="intro-to-css" name="sites" value="MyFirstSite">
+                                <label for="intro-to-css">Intro to CSS </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="kitties-2-go" name="sites" value="KittiestoGo">
+                                <label for="kitties-2-go">Kitties 2 Go </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="archery-site" name="sites" value="ArcherySite">
+                                <label for="archery-site">Archery Site</label>
+                            </div>
 
-                        <label for="zipcode">Zipcode
-                            <input type="text" id="zipcode">
+                            <div>
+                                <input type="radio" id="no-selection" name="sites" value="NoSelection">
+                                <label for="no-selection">None Selected</label>
+                            </div>
+                        </div>
+
+                    </fieldset> <!-- end of  your favorit site -->
+
+
+                    <!--start comments and feedback -->
+                    <fieldset>
+
+                        <legend>I'd love to hear your comments and feedback!</legend>
+
+                        <label for="text-area">Provide any feedback or comments below
+                            <textarea name="experience" rows="10" id="text-area"></textarea>
                         </label>
+
+
+                    </fieldset> <!-- end of Comments and Feedback -->
+
+
+                    <div class="position">
+                        <div class="center"><input type="submit" value="submit" name="submit"></div>
                     </div>
-                    <!-- end of city-state div -->
-                </fieldset> <!-- end of personal info fieldset -->
-
-                <fieldset>
-                    <!-- your favorit site -->
-                    <legend>Which portfolio project do you like the best?</legend>
-
-
-                    <div class="site-selection">
-                        <div>
-                            <input type="radio" id="first-site" name="sites" value="MyFirstSite">
-                            <label for="first-site">My First Site </label>
-                        </div>
-                        <div>
-                            <input type="radio" id="semantic-elements" name="sites" value="SemanticElements">
-                            <label for="semantic-elements">Semantic Elements </label>
-                        </div>
-                        <div>
-                            <input type="radio" id="about-cookers" name="sites" value="AboutPressureCookers">
-                            <label for="about-cookers">About Pressure Cookers </label>
-                        </div>
-                        <div>
-                            <input type="radio" id="intro-to-css" name="sites" value="MyFirstSite">
-                            <label for="intro-to-css">Intro to CSS </label>
-                        </div>
-                        <div>
-                            <input type="radio" id="kitties-2-go" name="sites" value="KittiestoGo">
-                            <label for="kitties-2-go">Kitties 2 Go </label>
-                        </div>
-                        <div>
-                            <input type="radio" id="archery-site" name="sites" value="ArcherySite">
-                            <label for="archery-site">Archery Site</label>
-                        </div>
-
-                        <div>
-                            <input type="radio" id="no-selection" name="sites" value="NoSelection">
-                            <label for="no-selection">None Selected</label>
-                        </div>
-                    </div>
-
-                </fieldset> <!-- end of  your favorit site -->
-
-
-                <!--start comments and feedback -->
-                <fieldset>
-
-                    <legend>I'd love to hear your comments and feedback!</legend>
-
-                    <label for="text-area">Provide any feedback or comments below
-                        <textarea name="experience" rows="10" id="text-area"></textarea>
-                    </label>
-
-                    <label for="email">Email
-                        <input type="email" name="email" id="email" placeholder="your-user-id@provider-name.com">
-                    </label>
-                </fieldset> <!-- end of Comments and Feedback -->
-
-
-                <div class="button">
-                    <div class="center"><input type="submit" value="submit" name="submit"></div>
-                </div>
 
 
             </section>
+            </form>
         </main> <!-- end of main-->
 
         <footer>
