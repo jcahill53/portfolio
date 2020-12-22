@@ -87,7 +87,9 @@ footer a:hover {
 main,
 section {
     margin-bottom: 0px;
-    padding: 0px 10px 0px 20px;
+    padding: 20px 10px 0px 20px;
+    margin-left: 20px;
+    margin-right:20px;
 }
 
 section h2 {
@@ -111,7 +113,7 @@ section h2 {
     margin: 10px;
     border: 3px solid rgb(3, 68, 3);
     width: 25%;
-    transition: background-color 500ms 0ms, /*width 500ms 0ms, height 500s 0ms,  */ border 500ms 0ms/*, font-size 500ms 0ms  */;
+    transition: background-color 500ms 0ms, border 500ms 0ms;
 }
 
 
@@ -183,6 +185,7 @@ fieldset {
     /* margin: 20 px; */
 }
 
+button,
 input,
 option,
 select,
@@ -192,12 +195,14 @@ textarea {
     font-size:1rem;
 }
 
+button:active,
 input:focus,
 select option:focus,
 select:focus,
 textarea:focus {
     background-color: rgb(250, 203, 117);
-    border: 3px solid black;
+    border: 3px solid rgb(129, 76, 16);
+    color:  rgb(129, 76, 16);
 }
 
 textarea {
@@ -213,13 +218,20 @@ input[type="email"] {
     width: 30%;
 }
 
-input[type="submit"] {
+button {
     font-size: 1.25rem;
     color: lightgray;
     font-weight: bold;
     background-color: rgb(129, 76, 16);
     padding: 10px 40px;
+    transition: background-color 250ms 0ms, border 250ms 0ms;
+
 }
+
+button:nth-child(2) {
+    margin-left: 50px;
+}
+
 
 .position {
     height: 100px;
