@@ -39,25 +39,29 @@
         </header>
 
         <main>
-            <section>
-                <h2 class="large">Contact Me</h2>
-                <form>
-                    <fieldset>
-                        <!-- start of contact information -->
-                        <legend>Please provide your contact information:</legend>
-                        <div class="name">
-                            <label for="first-name">First Name
-                                <input type="text" id="first-name" autofocus></label>
 
-                            <label for="middle-name">Middle Name
-                                <input type="text" id="middle-name"></label>
-
-                            <label for="last-name">Last Name
-                                <input type="text" id="last-name"></label>
-
-                        </div> <!-- end of name div -->
+            <h2 class="large">Contact Me</h2>
+            <!-- <form action="/action_page.php" method="get"> -->
+            <form>
+                <fieldset>
 
 
+                    <!-- start of contact information -->
+                    <legend>Please provide your contact information:</legend>
+                    <div class="name">
+                        <label for="first-name">First Name
+                            <input type="text" id="first-name" autofocus></label>
+
+                        <label for="middle-name">Middle Name
+                            <input type="text" id="middle-name"></label>
+
+                        <label for="last-name">Last Name
+                            <input type="text" id="last-name"></label>
+
+                    </div> <!-- end of name div -->
+
+                    <div>
+                        <!-- start of address info -->
                         <label class="address" for="address-1">Address Line 1
                             <input type="text" id="address-1"></label>
 
@@ -130,6 +134,8 @@
                                 <input type="text" id="zipcode">
                             </label>
                         </div>
+                        <!-- end of city-state -->
+
                         <label for="email">Email
                             <input type="email" name="email" id="email" placeholder="your-user-id@provider-name.com">
                         </label>
@@ -145,68 +151,69 @@
                                 <option value="work">Work</option>
                             </select>
                         </label>
-                        <!-- end of city-state div -->
-                    </fieldset> <!-- end of personal info fieldset -->
-
-                    <fieldset>
-                        <!-- your favorit site -->
-                        <legend>Which portfolio project do you like the best?</legend>
+                    </div>
+                    <!-- end of address info div -->
 
 
-                        <div class="site-selection">
-                            <div>
-                                <input type="radio" id="first-site" name="sites" value="MyFirstSite">
-                                <label for="first-site">My First Site </label>
-                            </div>
-                            <div>
-                                <input type="radio" id="semantic-elements" name="sites" value="SemanticElements">
-                                <label for="semantic-elements">Semantic Elements </label>
-                            </div>
-                            <div>
-                                <input type="radio" id="about-cookers" name="sites" value="AboutPressureCookers">
-                                <label for="about-cookers">About Pressure Cookers </label>
-                            </div>
-                            <div>
-                                <input type="radio" id="intro-to-css" name="sites" value="MyFirstSite">
-                                <label for="intro-to-css">Intro to CSS </label>
-                            </div>
-                            <div>
-                                <input type="radio" id="kitties-2-go" name="sites" value="KittiestoGo">
-                                <label for="kitties-2-go">Kitties 2 Go </label>
-                            </div>
-                            <div>
-                                <input type="radio" id="archery-site" name="sites" value="ArcherySite">
-                                <label for="archery-site">Archery Site</label>
-                            </div>
+                </fieldset> <!-- end of personal info fieldset -->
 
-                            <div>
-                                <input type="radio" id="no-selection" name="sites" value="NoSelection">
-                                <label for="no-selection">None Selected</label>
-                            </div>
+                <fieldset>
+                    <!-- your favorit site -->
+                    <legend>Which portfolio project do you like the best?</legend>
+
+
+                    <div class="site-selection">
+                        <div>
+                            <input type="radio" id="first-site" name="sites" value="MyFirstSite">
+                            <label for="first-site">My First Site </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="semantic-elements" name="sites" value="SemanticElements">
+                            <label for="semantic-elements">Semantic Elements </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="about-cookers" name="sites" value="AboutPressureCookers">
+                            <label for="about-cookers">About Pressure Cookers </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="intro-to-css" name="sites" value="MyFirstSite">
+                            <label for="intro-to-css">Intro to CSS </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="kitties-2-go" name="sites" value="KittiestoGo">
+                            <label for="kitties-2-go">Kitties 2 Go </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="archery-site" name="sites" value="ArcherySite">
+                            <label for="archery-site">Archery Site</label>
                         </div>
 
-                    </fieldset> <!-- end of  your favorit site -->
-
-
-                    <!--start comments and feedback -->
-                    <fieldset>
-
-                        <legend>I'd love to hear your comments and feedback!</legend>
-
-                        <label for="text-area">Provide any feedback or comments below
-                            <textarea name="experience" rows="10" id="text-area"></textarea>
-                        </label>
-
-
-                    </fieldset> <!-- end of Comments and Feedback -->
-
-
-                    <div class="position">
-                        <div class="center"><input type="submit" value="submit" name="submit"></div>
+                        <div>
+                            <input type="radio" id="no-selection" name="sites" value="NoSelection">
+                            <label for="no-selection">None Selected</label>
+                        </div>
                     </div>
 
+                </fieldset> <!-- end of  your favorit site -->
 
-            </section>
+
+                <!--start comments and feedback -->
+                <fieldset>
+
+                    <legend>I'd love to hear your comments and feedback!</legend>
+
+                    <label for="text-area">Provide any feedback or comments below
+                        <textarea name="experience" rows="10" id="text-area"></textarea>
+                    </label>
+
+
+                </fieldset> <!-- end of Comments and Feedback -->
+
+                <div class="position">
+                    <div class="center"><input type="submit" value="submit" name="submit"></div>
+                </div>
+
+
             </form>
         </main> <!-- end of main-->
 
@@ -234,8 +241,6 @@
 
             </div>
             <!--end of flexbox1-->
-
-
 
             <!--end of flexbox2-->
         </footer>
