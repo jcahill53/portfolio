@@ -16,6 +16,26 @@ body {
     background-color: white;
 }
 
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left: 0px;
+}
+
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 h1 {
     color: rgb(129, 76, 16);
     margin: 25px auto;
@@ -89,7 +109,7 @@ section {
     margin-bottom: 0px;
     padding: 20px 10px 0px 20px;
     margin-left: 20px;
-    margin-right:20px;
+    margin-right: 20px;
 }
 
 section h2 {
@@ -192,7 +212,7 @@ select,
 textarea {
     background-color: rgb(173, 245, 173);
     margin-bottom: 5px;
-    font-size:1rem;
+    font-size: 1rem;
 }
 
 button:active,
@@ -202,7 +222,7 @@ select:focus,
 textarea:focus {
     background-color: rgb(250, 203, 117);
     border: 3px solid rgb(129, 76, 16);
-    color:  rgb(129, 76, 16);
+    color: rgb(129, 76, 16);
 }
 
 textarea {
@@ -211,7 +231,7 @@ textarea {
 }
 
 input[type=radio] {
-    margin:10px;
+    margin: 10px;
 }
 
 input[type="email"] {
@@ -253,16 +273,16 @@ input[type="submit"]:focus {
     background-color: rgb(250, 203, 117);
     border: 3px solid rgb(129, 76, 16);
     color: rgb(129, 76, 16);
-    
+
 
 }
 
 .site-selection {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-content:center;
-    flex-wrap:wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 /* end of styling for form */
