@@ -20,6 +20,7 @@ The site is written using semantic HTML and CSS styling.
 ACCESSIBILITY
 
 The site was evaluated using the following tools:
+
 •	WAVE Web Accessibility Evaluation Tool (https://wave.webaim.org/). All pages passed the contrast ratio test with a ratio of 8:59:1.  Some pages returned errors which were addressed below.
 
 •	Colbinder: Coblis Color Blind Simulator (https://www.color-blindness.com/coblis-color-blindness-simulator/)  All pages passed the contrast ration test with a ration of 8:59:1. The pages also did well for color blindness.  Each test was applied and, although the type of color impairment impacted the colors displayed on the page, the user could view details and text on the page.  
